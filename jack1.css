@@ -1,0 +1,158 @@
+
+ * {
+     box-sizing: border-box;
+ } 
+
+img {
+
+    max-width: 100%;
+}
+
+
+body {
+    margin: 0;
+}
+
+.salad {
+   background-color: lightgreen;
+   height: 300px;
+   background-image: url('better solvay photo.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+   text-align: center;
+   border-bottom: 3px double tan;
+   
+
+}
+.coffee {
+    font-size: 1.25em:
+
+}
+
+.coffee {
+    margin-left: 40px;
+}
+.coffee,
+.cream li {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background: #fff;
+    margin-right: 30px;
+}
+
+
+
+ul {
+
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.cream a {
+
+    font-size: 1em;
+    text-transform: uppercase;
+    color#3acec2;
+}
+.dessert {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 30px;
+}
+
+.olive {
+    margin-top: 0;
+    font-family: 'Permanent Marker', serif;
+    font-size: 30px;
+    color: black;
+    
+       
+}
+.oil {
+
+    color: black;
+    font-size: 1.750rem;
+    font-weight: bold;
+    background-color: white;
+}
+.tomato {
+    font-family: 'Permanent Marker', serif;
+    font-size: 30px;
+    color: white;
+
+
+}
+.pepper {
+   font-family: 'Permanent Marker', serif;
+   font-size: 22px;
+   color: black;
+   
+}
+.squash {
+    font-family: 'Permanent Marker', serif;
+    font-size: 22px;
+    color: black;
+
+}
+.coffee a,
+.cream a {
+    padding: 10px 15px;
+    display: block;
+}
+
+
+.steak {
+    
+    padding-left: 1 em;
+    padding-right: 1 em;
+    
+
+}
+.instrument {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    
+}
+
+.dessert {
+    background-color: lightgray;
+    border-top: 3px double black;
+}
+
+  /*   media queries    */
+  @media (min-width: 768px)  {
+
+     
+     .wrap {
+          min-height: calc(100vh-71px);
+      }
+      .steak {
+          width:80%;
+          margin: 0 auto;
+          max-width: 1100px;
+
+      }
+      .coffee,
+      .cream,
+      .cream li {
+          display: inline-block;
+          
+          
+      }
+      .coffee {
+          width: 250px;
+          margin-top: 50px;
+          margin-right: 50px;
+          margin-bottom: 50px;
+          margin-left: 50px;
+          
+
+      }
+
+  }
